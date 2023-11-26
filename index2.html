@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiLingual</title>
+    <!-- google translate script -->
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <!-- function to translate the document  -->
+    <script>
+        function loadGoogleTranslate() {
+            new google.translate.TranslateElement({
+                // pageLanguage:en,
+                // includedLanguages:'en,es,fr,de',
+                // autoDisplay:false
+            },"myid");
+        }
+    </script>
+
+</head>
+<body>
+
+    <span id="myid">Choose your language</span>
+    <div>
+        <p id="p">Using google translate api we can convert our websites into multiple languages.
+            By default the api targets the whole website and converts the whole website into different language , but we can also set it to target some specific div
+        </p>
+
+    </div>
+</body>
+</html>
